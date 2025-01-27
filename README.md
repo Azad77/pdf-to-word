@@ -57,23 +57,34 @@ python manage.py runserver
 ```
 Visit the app in your browser at http://127.0.0.1:8000/ to test the functionality.
 
-Usage
-Navigate to the home page of the app.
-Upload a PDF file that you want to convert.
-Click the "Convert" button.
-Once the conversion is complete, the Word document will be available for download.
-Deployment
-This application can be deployed on platforms such as Render or Railway. For deployment instructions, please refer to the respective platform's documentation.
+## Usage
 
-Contributing
+1. Navigate to the home page of the app.
+2. Upload a PDF file that you want to convert.
+3. Click the **"Convert"** button.
+4. Once the conversion is complete, the Word document will be available for download.
+
+## Deployment
+
+This application can be deployed on platforms such as **Render** or **Railway**. For deployment instructions, please refer to the respective platform's documentation.
+
+## Contributing
+
 Feel free to fork this repository and submit pull requests. Contributions are welcome!
 
-Steps for contributing:
-Fork the repository.
-Create a new branch for your feature (git checkout -b feature-name).
-Commit your changes (git commit -am 'Add feature').
-Push to the branch (git push origin feature-name).
-Create a new Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+### Steps for Contributing:
+
+1. Fork the repository.
+2. Create a new branch for your feature (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -am 'Add feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Local Testing
+
+Visit the app in your browser at `http://127.0.0.1:8000/` to test the functionality.
 
