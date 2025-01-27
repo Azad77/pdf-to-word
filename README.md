@@ -22,44 +22,39 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/pdf-to-word-django.git
 cd pdf-to-word-django
+```
 2. Set Up Virtual Environment
 Create a virtual environment and activate it:
-
-bash
-Copy
-Edit
+```bash
 conda create -n pdf_to_word_env python=3.9
 conda activate pdf_to_word_env
+```
 3. Install Dependencies
 Install all the required dependencies:
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 Make sure to include requirements.txt in your repository, containing the necessary libraries:
 
-text
-Copy
-Edit
+```text
 django==3.2
 pdfplumber==0.5.28
 python-docx==0.8.11
+```
 4. Apply Migrations
 Run the database migrations:
 
-bash
-Copy
-Edit
+```bash
 python manage.py makemigrations
 python manage.py migrate
+```
 5. Run the Application Locally
 Start the development server:
 
-bash
-Copy
-Edit
+```bash
 python manage.py runserver
+```
 Visit the app in your browser at http://127.0.0.1:8000/ to test the functionality.
 
 Usage
@@ -82,8 +77,3 @@ Create a new Pull Request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-vbnet
-Copy
-Edit
-
-This version follows proper Markdown syntax with headers, code blocks, bullet poin
