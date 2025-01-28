@@ -1,4 +1,11 @@
 """
+Author: Dr. Azad Rasul
+Affiliation: Soran University
+Email: azad.rasul@soran.edu.iq
+Year: 2025
+"""
+
+"""
 ASGI config for pdf2word project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.

@@ -1,3 +1,10 @@
+"""
+Author: Dr. Azad Rasul
+Affiliation: Soran University
+Email: azad.rasul@soran.edu.iq
+Year: 2025
+"""
+
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
 import os
