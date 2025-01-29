@@ -32,7 +32,11 @@ SECRET_KEY = 'django-insecure-f@du^ff0ll8o&ks&#ep#d)*a)3wed83w9s86#5#+gkfb!d32+)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'pdf-to-word-django.onrender.com',  # Add your Render domain
+    '127.0.0.1',  # Allow local development
+]
+
 
 
 # Application definition
