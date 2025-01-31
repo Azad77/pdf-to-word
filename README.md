@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PDF to Word Converter Django App
 
 This is a simple Django web application that allows users to upload a PDF file, convert it to a Word document, and download the converted file. The app utilizes the `pdfplumber` library for extracting text from PDF files and the `python-docx` library for creating Word documents.
