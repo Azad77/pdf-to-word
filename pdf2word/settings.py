@@ -33,8 +33,7 @@ SECRET_KEY = 'django-insecure-f@du^ff0ll8o&ks&#ep#d)*a)3wed83w9s86#5#+gkfb!d32+)
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    #'pdf-to-word-test.onrender.com',
-    'pdf-to-word-5p6z.onrender.com/'  # Add your Render domain
+    'pdf-to-word-5p6z.onrender.com'  # Add your Render domain
     '127.0.0.1',  # Allow local development
 ]
 
