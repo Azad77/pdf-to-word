@@ -1,3 +1,3 @@
+web: gunicorn pdf2word.wsgi:application
 
 
-$ gunicorn [OPTIONS] [WSGI_APP]

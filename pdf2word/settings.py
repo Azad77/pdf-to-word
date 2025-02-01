@@ -33,7 +33,8 @@ SECRET_KEY = 'django-insecure-f@du^ff0ll8o&ks&#ep#d)*a)3wed83w9s86#5#+gkfb!d32+)
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'pdf-to-word.onrender.com',  # Add your Render domain
+    #'pdf-to-word-test.onrender.com',
+    'pdf-to-word-5p6z.onrender.com/'  # Add your Render domain
     '127.0.0.1',  # Allow local development
 ]
 
@@ -128,7 +129,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 import os
 STATIC_URL = 'static/'
-# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
